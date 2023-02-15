@@ -9,10 +9,10 @@ public class HashMap1 {
         // Name -> String
 
         Map<Integer, String> hashmap = new HashMap<>();
-        hashmap.put(1, "Aashish");
-        hashmap.put(2, "Vardhan");
+        hashmap.put(2, "Aashish");
+        hashmap.put(3, "Vardhan");
         hashmap.put(1, "Sai");
-        hashmap.put(1, "Paruvada");
+        hashmap.put(4, "Paruvada");
 
     }
 }
@@ -23,3 +23,8 @@ public class HashMap1 {
 // of keys respectively.
 
 // for objects in entrySet() we have methods like getValue(), getKey(), setValue() etc.
+
+// Every operation like Insert, remove, lookup take O(1) in HashMaps.
+// There are several ways to handle collisions in Hashmaps.
+// Chaining and Open Addressing are the solutions for collisions. Chaining is 
+// preferred than open addressing
